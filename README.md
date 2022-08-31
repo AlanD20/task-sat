@@ -1,5 +1,7 @@
 # Task SAT
 
+### [Live Demo](https://task-sat.herokuapp.com/)
+
 ## Requirement
 
 #### REST API with following endpoints:
@@ -39,6 +41,15 @@ cargo build
 cargo run
 ```
 
+
+## Deployemnt
+
+- To deploy it on heroku, make sure to turn off web service then turn it back on.
+```bash
+heroku ps:scale web=0
+
+heroku ps:scale web=1
+```
 
 ## LICENSE
 This repository is under [MIT LICENSE](LICENSE)
